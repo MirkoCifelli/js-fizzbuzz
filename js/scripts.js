@@ -5,9 +5,9 @@ const container = document.getElementById('elements');
 
 for (let i = 1; i<= 100;i++) {
    const divContainer = document.createElement('div');
-   divContainer.classList.add('div-interno');
+    divContainer.classList.add('div-interno');
     container.append(divContainer);
-    container.classList.add('d-flex','flex-wrap','gap-3','ms-3');
+    container.classList.add('d-flex','flex-wrap','gap-3','justify-content-between');
     divContainer.classList.add('d-flex','justify-content-center','align-items-center');
 
     if (i % 3 == 0 && i % 5 == 0) {
