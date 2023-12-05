@@ -2,3 +2,20 @@
     width: 100px;
     height: 100px;
 }
+.blue{
+    background-color: #1389B2;
+}
+.orange{
+    background-color: #FFD166;
+}
+.red{
+    background-color: #F0466F;
+}
+.green{
+    background-color: green;
+}
+
+
+body{
+    background-color: #083B4C;
+}
